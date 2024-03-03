@@ -1,0 +1,65 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* home*/
+.navbar{
+    z-index: 9999999;
+}
+#home{
+    background-image: url(./phot/section1.jpg);
+    height: 100vh;
+    background-position: 100% 100%;
+    background-size: cover;
+}
+
+.caption h2{
+    text-align: center;
+    color: #ffff;
+    font-size: 100px;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    opacity: 1;
+}
+h3{
+    text-align: center;
+    color: #ffff;
+   font-weight: 300;
+   font-size: 50px;
+
+}
+
+h1::after{
+    color: rgb(233, 228, 228);
+    content: "|";
+    font-size: 24px;
+    margin: 20px 0px;
+    font-weight: 700;   
+    animation: typing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing{
+    0%{content:"N|"}
+    10%{content:"NA|"}
+    20%{content:"NAT|"}
+    30%{content:"NATU|"}
+    40%{content:"NATUR|"}
+    50%{content:"NATURE|"}
+    60%{content:"NATUR|"}
+    70%{content:"NATU|"}
+    80%{content:"NAT|"}
+    90%{content:"NA|"}
+    100%{content:"N|"}
+}
+#about{
+    padding: 40px;
+    color: white;
+    text-align: center;
+    background-color: #c4c4c4;
+    font-weight: 100;
+    font-size: 20px;
+}
